@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -12,3 +16,8 @@ public:
         return {};
     }
 };
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}

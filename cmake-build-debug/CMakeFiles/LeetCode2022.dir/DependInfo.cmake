@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/LeetCode2022/521. 最长特殊序列 Ⅰ.cpp" "E:/LeetCode2022/cmake-build-debug/CMakeFiles/LeetCode2022.dir/521._最长特殊序列_Ⅰ.cpp.obj"
   "E:/LeetCode2022/main.cpp" "E:/LeetCode2022/cmake-build-debug/CMakeFiles/LeetCode2022.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

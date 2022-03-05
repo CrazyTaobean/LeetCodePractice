@@ -52,7 +52,10 @@ CMAKE_BINARY_DIR = E:\LeetCode2022\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LeetCode2022.dir/all
+all: CMakeFiles/521.Longest_special_sequence_one.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/1.sum_of_two_numbers.dir/all
+all: CMakeFiles/2.two_together.dir/all
 
 .PHONY : all
 
@@ -62,36 +65,120 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LeetCode2022.dir/clean
+clean: CMakeFiles/521.Longest_special_sequence_one.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/1.sum_of_two_numbers.dir/clean
+clean: CMakeFiles/2.two_together.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LeetCode2022.dir
+# Target rules for target CMakeFiles/521.Longest_special_sequence_one.dir
 
 # All Build rule for target.
-CMakeFiles/LeetCode2022.dir/all:
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/depend
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target LeetCode2022"
-.PHONY : CMakeFiles/LeetCode2022.dir/all
+CMakeFiles/521.Longest_special_sequence_one.dir/all:
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/depend
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 521.Longest_special_sequence_one"
+.PHONY : CMakeFiles/521.Longest_special_sequence_one.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LeetCode2022.dir/rule: cmake_check_build_system
+CMakeFiles/521.Longest_special_sequence_one.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LeetCode2022.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/521.Longest_special_sequence_one.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/LeetCode2022.dir/rule
+.PHONY : CMakeFiles/521.Longest_special_sequence_one.dir/rule
 
 # Convenience name for target.
-LeetCode2022: CMakeFiles/LeetCode2022.dir/rule
+521.Longest_special_sequence_one: CMakeFiles/521.Longest_special_sequence_one.dir/rule
 
-.PHONY : LeetCode2022
+.PHONY : 521.Longest_special_sequence_one
 
 # clean rule for target.
-CMakeFiles/LeetCode2022.dir/clean:
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/clean
-.PHONY : CMakeFiles/LeetCode2022.dir/clean
+CMakeFiles/521.Longest_special_sequence_one.dir/clean:
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/clean
+.PHONY : CMakeFiles/521.Longest_special_sequence_one.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1.sum_of_two_numbers.dir
+
+# All Build rule for target.
+CMakeFiles/1.sum_of_two_numbers.dir/all:
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/depend
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1.sum_of_two_numbers"
+.PHONY : CMakeFiles/1.sum_of_two_numbers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.sum_of_two_numbers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1.sum_of_two_numbers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1.sum_of_two_numbers.dir/rule
+
+# Convenience name for target.
+1.sum_of_two_numbers: CMakeFiles/1.sum_of_two_numbers.dir/rule
+
+.PHONY : 1.sum_of_two_numbers
+
+# clean rule for target.
+CMakeFiles/1.sum_of_two_numbers.dir/clean:
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/clean
+.PHONY : CMakeFiles/1.sum_of_two_numbers.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2.two_together.dir
+
+# All Build rule for target.
+CMakeFiles/2.two_together.dir/all:
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/depend
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 2.two_together"
+.PHONY : CMakeFiles/2.two_together.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2.two_together.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2.two_together.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2.two_together.dir/rule
+
+# Convenience name for target.
+2.two_together: CMakeFiles/2.two_together.dir/rule
+
+.PHONY : 2.two_together
+
+# clean rule for target.
+CMakeFiles/2.two_together.dir/clean:
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/clean
+.PHONY : CMakeFiles/2.two_together.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

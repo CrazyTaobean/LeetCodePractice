@@ -110,17 +110,137 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LeetCode2022
+# Target rules for targets named 521.Longest_special_sequence_one
 
 # Build rule for target.
-LeetCode2022: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 LeetCode2022
-.PHONY : LeetCode2022
+521.Longest_special_sequence_one: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 521.Longest_special_sequence_one
+.PHONY : 521.Longest_special_sequence_one
 
 # fast build rule for target.
-LeetCode2022/fast:
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/build
-.PHONY : LeetCode2022/fast
+521.Longest_special_sequence_one/fast:
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/build
+.PHONY : 521.Longest_special_sequence_one/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named 1.sum_of_two_numbers
+
+# Build rule for target.
+1.sum_of_two_numbers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1.sum_of_two_numbers
+.PHONY : 1.sum_of_two_numbers
+
+# fast build rule for target.
+1.sum_of_two_numbers/fast:
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/build
+.PHONY : 1.sum_of_two_numbers/fast
+
+#=============================================================================
+# Target rules for targets named 2.two_together
+
+# Build rule for target.
+2.two_together: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2.two_together
+.PHONY : 2.two_together
+
+# fast build rule for target.
+2.two_together/fast:
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/build
+.PHONY : 2.two_together/fast
+
+1.sum_of_two_numbers.obj: 1.sum_of_two_numbers.cpp.obj
+
+.PHONY : 1.sum_of_two_numbers.obj
+
+# target to build an object file
+1.sum_of_two_numbers.cpp.obj:
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/1.sum_of_two_numbers.cpp.obj
+.PHONY : 1.sum_of_two_numbers.cpp.obj
+
+1.sum_of_two_numbers.i: 1.sum_of_two_numbers.cpp.i
+
+.PHONY : 1.sum_of_two_numbers.i
+
+# target to preprocess a source file
+1.sum_of_two_numbers.cpp.i:
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/1.sum_of_two_numbers.cpp.i
+.PHONY : 1.sum_of_two_numbers.cpp.i
+
+1.sum_of_two_numbers.s: 1.sum_of_two_numbers.cpp.s
+
+.PHONY : 1.sum_of_two_numbers.s
+
+# target to generate assembly for a file
+1.sum_of_two_numbers.cpp.s:
+	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/1.sum_of_two_numbers.cpp.s
+.PHONY : 1.sum_of_two_numbers.cpp.s
+
+2.two_together.obj: 2.two_together.cpp.obj
+
+.PHONY : 2.two_together.obj
+
+# target to build an object file
+2.two_together.cpp.obj:
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/2.two_together.cpp.obj
+.PHONY : 2.two_together.cpp.obj
+
+2.two_together.i: 2.two_together.cpp.i
+
+.PHONY : 2.two_together.i
+
+# target to preprocess a source file
+2.two_together.cpp.i:
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/2.two_together.cpp.i
+.PHONY : 2.two_together.cpp.i
+
+2.two_together.s: 2.two_together.cpp.s
+
+.PHONY : 2.two_together.s
+
+# target to generate assembly for a file
+2.two_together.cpp.s:
+	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/2.two_together.cpp.s
+.PHONY : 2.two_together.cpp.s
+
+521.Longest_special_sequence_one.obj: 521.Longest_special_sequence_one.cpp.obj
+
+.PHONY : 521.Longest_special_sequence_one.obj
+
+# target to build an object file
+521.Longest_special_sequence_one.cpp.obj:
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/521.Longest_special_sequence_one.cpp.obj
+.PHONY : 521.Longest_special_sequence_one.cpp.obj
+
+521.Longest_special_sequence_one.i: 521.Longest_special_sequence_one.cpp.i
+
+.PHONY : 521.Longest_special_sequence_one.i
+
+# target to preprocess a source file
+521.Longest_special_sequence_one.cpp.i:
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/521.Longest_special_sequence_one.cpp.i
+.PHONY : 521.Longest_special_sequence_one.cpp.i
+
+521.Longest_special_sequence_one.s: 521.Longest_special_sequence_one.cpp.s
+
+.PHONY : 521.Longest_special_sequence_one.s
+
+# target to generate assembly for a file
+521.Longest_special_sequence_one.cpp.s:
+	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/521.Longest_special_sequence_one.cpp.s
+.PHONY : 521.Longest_special_sequence_one.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -128,7 +248,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +257,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +266,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\LeetCode2022.dir\build.make CMakeFiles/LeetCode2022.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,9 +275,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... LeetCode2022
 	@echo ... edit_cache
+	@echo ... 521.Longest_special_sequence_one
+	@echo ... main
+	@echo ... 1.sum_of_two_numbers
+	@echo ... 2.two_together
 	@echo ... rebuild_cache
+	@echo ... 1.sum_of_two_numbers.obj
+	@echo ... 1.sum_of_two_numbers.i
+	@echo ... 1.sum_of_two_numbers.s
+	@echo ... 2.two_together.obj
+	@echo ... 2.two_together.i
+	@echo ... 2.two_together.s
+	@echo ... 521.Longest_special_sequence_one.obj
+	@echo ... 521.Longest_special_sequence_one.i
+	@echo ... 521.Longest_special_sequence_one.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
