@@ -28,8 +28,7 @@ public:
         }
         return ans;
     }
-    int second_way
-    (string s) {
+    int second_way(string s) {
         if(s.size() == 0) return 0;
         unordered_set<char> lookup;
         int maxStr = 0;
