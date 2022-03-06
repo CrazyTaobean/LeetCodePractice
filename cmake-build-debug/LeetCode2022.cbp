@@ -195,6 +195,48 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="2100.a_good_day_to_rob_a_bank">
+				<Option output="E:/LeetCode2022/cmake-build-debug/2100.a_good_day_to_rob_a_bank.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 2100.a_good_day_to_rob_a_bank"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2100.a_good_day_to_rob_a_bank/fast">
+				<Option output="E:/LeetCode2022/cmake-build-debug/2100.a_good_day_to_rob_a_bank.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 2100.a_good_day_to_rob_a_bank/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="3.the_oldest_string_without_repeating_characters">
 				<Option output="E:/LeetCode2022/cmake-build-debug/3.the_oldest_string_without_repeating_characters.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
@@ -253,6 +295,9 @@
 		</Unit>
 		<Unit filename="E:/LeetCode2022/2.two_together.cpp">
 			<Option target="2.two_together"/>
+		</Unit>
+		<Unit filename="E:/LeetCode2022/2100.a_good_day_to_rob_a_bank.cpp">
+			<Option target="2100.a_good_day_to_rob_a_bank"/>
 		</Unit>
 		<Unit filename="E:/LeetCode2022/3.the_oldest_string_without_repeating_characters.cpp">
 			<Option target="3.the_oldest_string_without_repeating_characters"/>
