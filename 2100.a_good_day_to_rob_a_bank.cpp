@@ -6,33 +6,37 @@ using namespace std;
 class Solution {
 public:
     vector<int> goodDaysToRobBank(vector<int>& s, int t) {
-        int n = s.size();
         vector<int> res;
-        // 两个剪枝
-        if(2 * t + 1 > n) return res;
-        if(t == 0) {
-            for(int i = 0;i < n;i ++) res.push_back(i);
+        //剪枝
+        if( s.size() < t*2 + 1){
             return res;
         }
-        int o1,o2;
-        o1 = 0;// 前面递增的个数
-        o2 = 0;// 后面递减的个数
-
-        for(int i = 1;i <= t;i ++) {
-            if(s[i] > s[i - 1]) o1 ++;
+        if (t==0) {
+            for (int i = 0; i < s.size(); ++i) {
+                res.push_back(i);
+            }
+            return res;
         }
-        for(int i = t + 1;i <= t + t;i ++) {
-            if(s[i] < s[i - 1]) o2 ++;
+        int n1 = 0; // 左窗不符合数量
+        int n2 = 0; // 右窗不符合数量
+        for(int i = 1; i <= t; i++) {
+            if(s[i] > s[i - 1]) {
+                n1++;
+            }
         }
-
-        for(int p = t, i = 0, j = 2 * t;;p ++) {
-            if(!o1 && !o2) res.push_back(p);
-            if(j + 1 == n) break;
-            if(s[i] < s[i + 1]) o1 --;
-            if(s[p] < s[p + 1]) o1 ++;
-            if(s[p] > s[p + 1]) o2 --;
-            if(s[j + 1] < s[j]) o2 ++;
-            i ++ , j ++;
+        for(int i = t+1; i <= 2*t; i++) {
+            if(s[i] < s[i - 1]) {
+                n2++;
+            }
+        }
+        for(int i=0, p =t, j=2 * t;;p++) {
+            if(!n1 && !n2) res.push_back(p);
+            if(j + 1 == s.size()) break;
+            if(s[i] < s[i + 1]) n1--;
+            if(s[p] < s[p + 1]) n1++;
+            if(s[j + 1] < s[j]) n2++;
+            if(s[p] > s[p + 1]) n2--;
+            i++, j++;
         }
         return res;
     }
@@ -77,6 +81,7 @@ public:
 
 int main() {
     vector<int> security;
+//    security.push_back(5);
     security.push_back(1);
     security.push_back(1);
     security.push_back(1);
@@ -90,7 +95,7 @@ int main() {
 //    security.push_back(2);
     int time = 0;
     Solution solution;
-    vector<int> res = solution.goodDaysToRobBank(security, time);
+    vector<int>res = solution.goodDaysToRobBank(security, time);
     for (int i = 0; i < res.size(); ++i) {
         cout << res[i];
     }

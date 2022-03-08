@@ -54,10 +54,14 @@ CMAKE_BINARY_DIR = E:\LeetCode2022\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/521.Longest_special_sequence_one.dir/all
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/88.merge_two_ordered_arrays.dir/all
 all: CMakeFiles/1.sum_of_two_numbers.dir/all
+all: CMakeFiles/504.seven_base_numbers.dir/all
 all: CMakeFiles/2.two_together.dir/all
-all: CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all
+all: CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/all
 all: CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all
+all: CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all
+all: CMakeFiles/2055.plates_between_candles.dir/all
 
 .PHONY : all
 
@@ -69,10 +73,14 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/521.Longest_special_sequence_one.dir/clean
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/88.merge_two_ordered_arrays.dir/clean
 clean: CMakeFiles/1.sum_of_two_numbers.dir/clean
+clean: CMakeFiles/504.seven_base_numbers.dir/clean
 clean: CMakeFiles/2.two_together.dir/clean
-clean: CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/clean
+clean: CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/clean
 clean: CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean
+clean: CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/clean
+clean: CMakeFiles/2055.plates_between_candles.dir/clean
 
 .PHONY : clean
 
@@ -83,7 +91,7 @@ clean: CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean
 CMakeFiles/521.Longest_special_sequence_one.dir/all:
 	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/depend
 	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 521.Longest_special_sequence_one"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 521.Longest_special_sequence_one"
 .PHONY : CMakeFiles/521.Longest_special_sequence_one.dir/all
 
 # Build rule for subdir invocation for target.
@@ -110,7 +118,7 @@ CMakeFiles/521.Longest_special_sequence_one.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -129,6 +137,33 @@ main: CMakeFiles/main.dir/rule
 CMakeFiles/main.dir/clean:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
 .PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/88.merge_two_ordered_arrays.dir
+
+# All Build rule for target.
+CMakeFiles/88.merge_two_ordered_arrays.dir/all:
+	$(MAKE) -f CMakeFiles\88.merge_two_ordered_arrays.dir\build.make CMakeFiles/88.merge_two_ordered_arrays.dir/depend
+	$(MAKE) -f CMakeFiles\88.merge_two_ordered_arrays.dir\build.make CMakeFiles/88.merge_two_ordered_arrays.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 88.merge_two_ordered_arrays"
+.PHONY : CMakeFiles/88.merge_two_ordered_arrays.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/88.merge_two_ordered_arrays.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/88.merge_two_ordered_arrays.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/88.merge_two_ordered_arrays.dir/rule
+
+# Convenience name for target.
+88.merge_two_ordered_arrays: CMakeFiles/88.merge_two_ordered_arrays.dir/rule
+
+.PHONY : 88.merge_two_ordered_arrays
+
+# clean rule for target.
+CMakeFiles/88.merge_two_ordered_arrays.dir/clean:
+	$(MAKE) -f CMakeFiles\88.merge_two_ordered_arrays.dir\build.make CMakeFiles/88.merge_two_ordered_arrays.dir/clean
+.PHONY : CMakeFiles/88.merge_two_ordered_arrays.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/1.sum_of_two_numbers.dir
@@ -158,6 +193,33 @@ CMakeFiles/1.sum_of_two_numbers.dir/clean:
 .PHONY : CMakeFiles/1.sum_of_two_numbers.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/504.seven_base_numbers.dir
+
+# All Build rule for target.
+CMakeFiles/504.seven_base_numbers.dir/all:
+	$(MAKE) -f CMakeFiles\504.seven_base_numbers.dir\build.make CMakeFiles/504.seven_base_numbers.dir/depend
+	$(MAKE) -f CMakeFiles\504.seven_base_numbers.dir\build.make CMakeFiles/504.seven_base_numbers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 504.seven_base_numbers"
+.PHONY : CMakeFiles/504.seven_base_numbers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/504.seven_base_numbers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/504.seven_base_numbers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/504.seven_base_numbers.dir/rule
+
+# Convenience name for target.
+504.seven_base_numbers: CMakeFiles/504.seven_base_numbers.dir/rule
+
+.PHONY : 504.seven_base_numbers
+
+# clean rule for target.
+CMakeFiles/504.seven_base_numbers.dir/clean:
+	$(MAKE) -f CMakeFiles\504.seven_base_numbers.dir\build.make CMakeFiles/504.seven_base_numbers.dir/clean
+.PHONY : CMakeFiles/504.seven_base_numbers.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2.two_together.dir
 
 # All Build rule for target.
@@ -185,13 +247,67 @@ CMakeFiles/2.two_together.dir/clean:
 .PHONY : CMakeFiles/2.two_together.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir
+
+# All Build rule for target.
+CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/all:
+	$(MAKE) -f CMakeFiles\4.find_the_median_of_two_positive_ordinal_groups.dir\build.make CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/depend
+	$(MAKE) -f CMakeFiles\4.find_the_median_of_two_positive_ordinal_groups.dir\build.make CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 4.find_the_median_of_two_positive_ordinal_groups"
+.PHONY : CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/rule
+
+# Convenience name for target.
+4.find_the_median_of_two_positive_ordinal_groups: CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/rule
+
+.PHONY : 4.find_the_median_of_two_positive_ordinal_groups
+
+# clean rule for target.
+CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/clean:
+	$(MAKE) -f CMakeFiles\4.find_the_median_of_two_positive_ordinal_groups.dir\build.make CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/clean
+.PHONY : CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/3.the_oldest_string_without_repeating_characters.dir
+
+# All Build rule for target.
+CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all:
+	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/depend
+	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 3.the_oldest_string_without_repeating_characters"
+.PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/rule
+
+# Convenience name for target.
+3.the_oldest_string_without_repeating_characters: CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/rule
+
+.PHONY : 3.the_oldest_string_without_repeating_characters
+
+# clean rule for target.
+CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean:
+	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean
+.PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/2100.a_good_day_to_rob_a_bank.dir
 
 # All Build rule for target.
 CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all:
 	$(MAKE) -f CMakeFiles\2100.a_good_day_to_rob_a_bank.dir\build.make CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/depend
 	$(MAKE) -f CMakeFiles\2100.a_good_day_to_rob_a_bank.dir\build.make CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 2100.a_good_day_to_rob_a_bank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 2100.a_good_day_to_rob_a_bank"
 .PHONY : CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all
 
 # Build rule for subdir invocation for target.
@@ -212,31 +328,31 @@ CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/clean:
 .PHONY : CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/3.the_oldest_string_without_repeating_characters.dir
+# Target rules for target CMakeFiles/2055.plates_between_candles.dir
 
 # All Build rule for target.
-CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all:
-	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/depend
-	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 3.the_oldest_string_without_repeating_characters"
-.PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all
+CMakeFiles/2055.plates_between_candles.dir/all:
+	$(MAKE) -f CMakeFiles\2055.plates_between_candles.dir\build.make CMakeFiles/2055.plates_between_candles.dir/depend
+	$(MAKE) -f CMakeFiles\2055.plates_between_candles.dir\build.make CMakeFiles/2055.plates_between_candles.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 2055.plates_between_candles"
+.PHONY : CMakeFiles/2055.plates_between_candles.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/rule: cmake_check_build_system
+CMakeFiles/2055.plates_between_candles.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2055.plates_between_candles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/rule
+.PHONY : CMakeFiles/2055.plates_between_candles.dir/rule
 
 # Convenience name for target.
-3.the_oldest_string_without_repeating_characters: CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/rule
+2055.plates_between_candles: CMakeFiles/2055.plates_between_candles.dir/rule
 
-.PHONY : 3.the_oldest_string_without_repeating_characters
+.PHONY : 2055.plates_between_candles
 
 # clean rule for target.
-CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean:
-	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean
-.PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean
+CMakeFiles/2055.plates_between_candles.dir/clean:
+	$(MAKE) -f CMakeFiles\2055.plates_between_candles.dir\build.make CMakeFiles/2055.plates_between_candles.dir/clean
+.PHONY : CMakeFiles/2055.plates_between_candles.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
