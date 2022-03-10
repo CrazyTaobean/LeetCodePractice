@@ -239,6 +239,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles\2055.plates_between_candles.dir\build.make CMakeFiles/2055.plates_between_candles.dir/build
 .PHONY : 2055.plates_between_candles/fast
 
+#=============================================================================
+# Target rules for targets named 589.antecedent_traversal_of_N_fork_trees
+
+# Build rule for target.
+589.antecedent_traversal_of_N_fork_trees: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 589.antecedent_traversal_of_N_fork_trees
+.PHONY : 589.antecedent_traversal_of_N_fork_trees
+
+# fast build rule for target.
+589.antecedent_traversal_of_N_fork_trees/fast:
+	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/build
+.PHONY : 589.antecedent_traversal_of_N_fork_trees/fast
+
+#=============================================================================
+# Target rules for targets named 144.antecedent_traversal_of_binary_trees
+
+# Build rule for target.
+144.antecedent_traversal_of_binary_trees: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 144.antecedent_traversal_of_binary_trees
+.PHONY : 144.antecedent_traversal_of_binary_trees
+
+# fast build rule for target.
+144.antecedent_traversal_of_binary_trees/fast:
+	$(MAKE) -f CMakeFiles\144.antecedent_traversal_of_binary_trees.dir\build.make CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/build
+.PHONY : 144.antecedent_traversal_of_binary_trees/fast
+
 1.sum_of_two_numbers.obj: 1.sum_of_two_numbers.cpp.obj
 
 .PHONY : 1.sum_of_two_numbers.obj
@@ -265,6 +291,33 @@ main/fast:
 1.sum_of_two_numbers.cpp.s:
 	$(MAKE) -f CMakeFiles\1.sum_of_two_numbers.dir\build.make CMakeFiles/1.sum_of_two_numbers.dir/1.sum_of_two_numbers.cpp.s
 .PHONY : 1.sum_of_two_numbers.cpp.s
+
+144.preorder_traversal_of_binary_trees.obj: 144.preorder_traversal_of_binary_trees.cpp.obj
+
+.PHONY : 144.preorder_traversal_of_binary_trees.obj
+
+# target to build an object file
+144.preorder_traversal_of_binary_trees.cpp.obj:
+	$(MAKE) -f CMakeFiles\144.antecedent_traversal_of_binary_trees.dir\build.make CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/144.preorder_traversal_of_binary_trees.cpp.obj
+.PHONY : 144.preorder_traversal_of_binary_trees.cpp.obj
+
+144.preorder_traversal_of_binary_trees.i: 144.preorder_traversal_of_binary_trees.cpp.i
+
+.PHONY : 144.preorder_traversal_of_binary_trees.i
+
+# target to preprocess a source file
+144.preorder_traversal_of_binary_trees.cpp.i:
+	$(MAKE) -f CMakeFiles\144.antecedent_traversal_of_binary_trees.dir\build.make CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/144.preorder_traversal_of_binary_trees.cpp.i
+.PHONY : 144.preorder_traversal_of_binary_trees.cpp.i
+
+144.preorder_traversal_of_binary_trees.s: 144.preorder_traversal_of_binary_trees.cpp.s
+
+.PHONY : 144.preorder_traversal_of_binary_trees.s
+
+# target to generate assembly for a file
+144.preorder_traversal_of_binary_trees.cpp.s:
+	$(MAKE) -f CMakeFiles\144.antecedent_traversal_of_binary_trees.dir\build.make CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/144.preorder_traversal_of_binary_trees.cpp.s
+.PHONY : 144.preorder_traversal_of_binary_trees.cpp.s
 
 2.two_together.obj: 2.two_together.cpp.obj
 
@@ -455,6 +508,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/521.Longest_special_sequence_one.cpp.s
 .PHONY : 521.Longest_special_sequence_one.cpp.s
 
+589.antecedent_traversal_of_N_fork_trees.obj: 589.antecedent_traversal_of_N_fork_trees.cpp.obj
+
+.PHONY : 589.antecedent_traversal_of_N_fork_trees.obj
+
+# target to build an object file
+589.antecedent_traversal_of_N_fork_trees.cpp.obj:
+	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/589.antecedent_traversal_of_N_fork_trees.cpp.obj
+.PHONY : 589.antecedent_traversal_of_N_fork_trees.cpp.obj
+
+589.antecedent_traversal_of_N_fork_trees.i: 589.antecedent_traversal_of_N_fork_trees.cpp.i
+
+.PHONY : 589.antecedent_traversal_of_N_fork_trees.i
+
+# target to preprocess a source file
+589.antecedent_traversal_of_N_fork_trees.cpp.i:
+	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/589.antecedent_traversal_of_N_fork_trees.cpp.i
+.PHONY : 589.antecedent_traversal_of_N_fork_trees.cpp.i
+
+589.antecedent_traversal_of_N_fork_trees.s: 589.antecedent_traversal_of_N_fork_trees.cpp.s
+
+.PHONY : 589.antecedent_traversal_of_N_fork_trees.s
+
+# target to generate assembly for a file
+589.antecedent_traversal_of_N_fork_trees.cpp.s:
+	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/589.antecedent_traversal_of_N_fork_trees.cpp.s
+.PHONY : 589.antecedent_traversal_of_N_fork_trees.cpp.s
+
 88.merge_two_ordered_arrays.obj: 88.merge_two_ordered_arrays.cpp.obj
 
 .PHONY : 88.merge_two_ordered_arrays.obj
@@ -526,10 +606,15 @@ help:
 	@echo ... 3.the_oldest_string_without_repeating_characters
 	@echo ... 2100.a_good_day_to_rob_a_bank
 	@echo ... 2055.plates_between_candles
+	@echo ... 589.antecedent_traversal_of_N_fork_trees
+	@echo ... 144.antecedent_traversal_of_binary_trees
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_numbers.obj
 	@echo ... 1.sum_of_two_numbers.i
 	@echo ... 1.sum_of_two_numbers.s
+	@echo ... 144.preorder_traversal_of_binary_trees.obj
+	@echo ... 144.preorder_traversal_of_binary_trees.i
+	@echo ... 144.preorder_traversal_of_binary_trees.s
 	@echo ... 2.two_together.obj
 	@echo ... 2.two_together.i
 	@echo ... 2.two_together.s
@@ -551,6 +636,9 @@ help:
 	@echo ... 521.Longest_special_sequence_one.obj
 	@echo ... 521.Longest_special_sequence_one.i
 	@echo ... 521.Longest_special_sequence_one.s
+	@echo ... 589.antecedent_traversal_of_N_fork_trees.obj
+	@echo ... 589.antecedent_traversal_of_N_fork_trees.i
+	@echo ... 589.antecedent_traversal_of_N_fork_trees.s
 	@echo ... 88.merge_two_ordered_arrays.obj
 	@echo ... 88.merge_two_ordered_arrays.i
 	@echo ... 88.merge_two_ordered_arrays.s

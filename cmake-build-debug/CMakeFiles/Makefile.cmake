@@ -63,4 +63,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/DependInfo.cmake"
   "CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/DependInfo.cmake"
   "CMakeFiles/2055.plates_between_candles.dir/DependInfo.cmake"
+  "CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/DependInfo.cmake"
+  "CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/DependInfo.cmake"
   )

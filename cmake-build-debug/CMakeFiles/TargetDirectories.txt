@@ -9,4 +9,6 @@ E:/LeetCode2022/cmake-build-debug/CMakeFiles/4.find_the_median_of_two_positive_o
 E:/LeetCode2022/cmake-build-debug/CMakeFiles/3.the_oldest_string_without_repeating_characters.dir
 E:/LeetCode2022/cmake-build-debug/CMakeFiles/2100.a_good_day_to_rob_a_bank.dir
 E:/LeetCode2022/cmake-build-debug/CMakeFiles/2055.plates_between_candles.dir
+E:/LeetCode2022/cmake-build-debug/CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir
+E:/LeetCode2022/cmake-build-debug/CMakeFiles/144.antecedent_traversal_of_binary_trees.dir
 E:/LeetCode2022/cmake-build-debug/CMakeFiles/rebuild_cache.dir
