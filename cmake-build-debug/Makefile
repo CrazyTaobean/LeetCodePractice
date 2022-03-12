@@ -265,6 +265,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles\144.antecedent_traversal_of_binary_trees.dir\build.make CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/build
 .PHONY : 144.antecedent_traversal_of_binary_trees/fast
 
+#=============================================================================
+# Target rules for targets named 2049.count_the_nodes_with_the_highest_score
+
+# Build rule for target.
+2049.count_the_nodes_with_the_highest_score: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2049.count_the_nodes_with_the_highest_score
+.PHONY : 2049.count_the_nodes_with_the_highest_score
+
+# fast build rule for target.
+2049.count_the_nodes_with_the_highest_score/fast:
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/build
+.PHONY : 2049.count_the_nodes_with_the_highest_score/fast
+
+#=============================================================================
+# Target rules for targets named 590.Post-order_traversal_of_N_fork_trees
+
+# Build rule for target.
+590.Post-order_traversal_of_N_fork_trees: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 590.Post-order_traversal_of_N_fork_trees
+.PHONY : 590.Post-order_traversal_of_N_fork_trees
+
+# fast build rule for target.
+590.Post-order_traversal_of_N_fork_trees/fast:
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/build
+.PHONY : 590.Post-order_traversal_of_N_fork_trees/fast
+
 1.sum_of_two_numbers.obj: 1.sum_of_two_numbers.cpp.obj
 
 .PHONY : 1.sum_of_two_numbers.obj
@@ -345,6 +371,33 @@ main/fast:
 2.two_together.cpp.s:
 	$(MAKE) -f CMakeFiles\2.two_together.dir\build.make CMakeFiles/2.two_together.dir/2.two_together.cpp.s
 .PHONY : 2.two_together.cpp.s
+
+2049.count_the_nodes_with_the_highest_score.obj: 2049.count_the_nodes_with_the_highest_score.cpp.obj
+
+.PHONY : 2049.count_the_nodes_with_the_highest_score.obj
+
+# target to build an object file
+2049.count_the_nodes_with_the_highest_score.cpp.obj:
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/2049.count_the_nodes_with_the_highest_score.cpp.obj
+.PHONY : 2049.count_the_nodes_with_the_highest_score.cpp.obj
+
+2049.count_the_nodes_with_the_highest_score.i: 2049.count_the_nodes_with_the_highest_score.cpp.i
+
+.PHONY : 2049.count_the_nodes_with_the_highest_score.i
+
+# target to preprocess a source file
+2049.count_the_nodes_with_the_highest_score.cpp.i:
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/2049.count_the_nodes_with_the_highest_score.cpp.i
+.PHONY : 2049.count_the_nodes_with_the_highest_score.cpp.i
+
+2049.count_the_nodes_with_the_highest_score.s: 2049.count_the_nodes_with_the_highest_score.cpp.s
+
+.PHONY : 2049.count_the_nodes_with_the_highest_score.s
+
+# target to generate assembly for a file
+2049.count_the_nodes_with_the_highest_score.cpp.s:
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/2049.count_the_nodes_with_the_highest_score.cpp.s
+.PHONY : 2049.count_the_nodes_with_the_highest_score.cpp.s
 
 2055.plates_between_candles.obj: 2055.plates_between_candles.cpp.obj
 
@@ -535,6 +588,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/589.antecedent_traversal_of_N_fork_trees.cpp.s
 .PHONY : 589.antecedent_traversal_of_N_fork_trees.cpp.s
 
+590.Post-order_traversal_of_N_fork_trees.obj: 590.Post-order_traversal_of_N_fork_trees.cpp.obj
+
+.PHONY : 590.Post-order_traversal_of_N_fork_trees.obj
+
+# target to build an object file
+590.Post-order_traversal_of_N_fork_trees.cpp.obj:
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/590.Post-order_traversal_of_N_fork_trees.cpp.obj
+.PHONY : 590.Post-order_traversal_of_N_fork_trees.cpp.obj
+
+590.Post-order_traversal_of_N_fork_trees.i: 590.Post-order_traversal_of_N_fork_trees.cpp.i
+
+.PHONY : 590.Post-order_traversal_of_N_fork_trees.i
+
+# target to preprocess a source file
+590.Post-order_traversal_of_N_fork_trees.cpp.i:
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/590.Post-order_traversal_of_N_fork_trees.cpp.i
+.PHONY : 590.Post-order_traversal_of_N_fork_trees.cpp.i
+
+590.Post-order_traversal_of_N_fork_trees.s: 590.Post-order_traversal_of_N_fork_trees.cpp.s
+
+.PHONY : 590.Post-order_traversal_of_N_fork_trees.s
+
+# target to generate assembly for a file
+590.Post-order_traversal_of_N_fork_trees.cpp.s:
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/590.Post-order_traversal_of_N_fork_trees.cpp.s
+.PHONY : 590.Post-order_traversal_of_N_fork_trees.cpp.s
+
 88.merge_two_ordered_arrays.obj: 88.merge_two_ordered_arrays.cpp.obj
 
 .PHONY : 88.merge_two_ordered_arrays.obj
@@ -608,6 +688,8 @@ help:
 	@echo ... 2055.plates_between_candles
 	@echo ... 589.antecedent_traversal_of_N_fork_trees
 	@echo ... 144.antecedent_traversal_of_binary_trees
+	@echo ... 2049.count_the_nodes_with_the_highest_score
+	@echo ... 590.Post-order_traversal_of_N_fork_trees
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_numbers.obj
 	@echo ... 1.sum_of_two_numbers.i
@@ -618,6 +700,9 @@ help:
 	@echo ... 2.two_together.obj
 	@echo ... 2.two_together.i
 	@echo ... 2.two_together.s
+	@echo ... 2049.count_the_nodes_with_the_highest_score.obj
+	@echo ... 2049.count_the_nodes_with_the_highest_score.i
+	@echo ... 2049.count_the_nodes_with_the_highest_score.s
 	@echo ... 2055.plates_between_candles.obj
 	@echo ... 2055.plates_between_candles.i
 	@echo ... 2055.plates_between_candles.s
@@ -639,6 +724,9 @@ help:
 	@echo ... 589.antecedent_traversal_of_N_fork_trees.obj
 	@echo ... 589.antecedent_traversal_of_N_fork_trees.i
 	@echo ... 589.antecedent_traversal_of_N_fork_trees.s
+	@echo ... 590.Post-order_traversal_of_N_fork_trees.obj
+	@echo ... 590.Post-order_traversal_of_N_fork_trees.i
+	@echo ... 590.Post-order_traversal_of_N_fork_trees.s
 	@echo ... 88.merge_two_ordered_arrays.obj
 	@echo ... 88.merge_two_ordered_arrays.i
 	@echo ... 88.merge_two_ordered_arrays.s

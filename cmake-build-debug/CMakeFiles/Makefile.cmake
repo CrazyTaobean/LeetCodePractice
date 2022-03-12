@@ -65,4 +65,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/2055.plates_between_candles.dir/DependInfo.cmake"
   "CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/DependInfo.cmake"
   "CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/DependInfo.cmake"
+  "CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/DependInfo.cmake"
+  "CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/DependInfo.cmake"
   )

@@ -531,6 +531,90 @@
 					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="2049.count_the_nodes_with_the_highest_score">
+				<Option output="E:/LeetCode2022/cmake-build-debug/2049.count_the_nodes_with_the_highest_score.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 2049.count_the_nodes_with_the_highest_score"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2049.count_the_nodes_with_the_highest_score/fast">
+				<Option output="E:/LeetCode2022/cmake-build-debug/2049.count_the_nodes_with_the_highest_score.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 2049.count_the_nodes_with_the_highest_score/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="590.Post-order_traversal_of_N_fork_trees">
+				<Option output="E:/LeetCode2022/cmake-build-debug/590.Post-order_traversal_of_N_fork_trees.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 590.Post-order_traversal_of_N_fork_trees"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="590.Post-order_traversal_of_N_fork_trees/fast">
+				<Option output="E:/LeetCode2022/cmake-build-debug/590.Post-order_traversal_of_N_fork_trees.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 590.Post-order_traversal_of_N_fork_trees/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/LeetCode2022/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/LeetCode2022/cmake-build-debug"/>
 				<Option type="4"/>
@@ -550,6 +634,9 @@
 		</Unit>
 		<Unit filename="E:/LeetCode2022/2.two_together.cpp">
 			<Option target="2.two_together"/>
+		</Unit>
+		<Unit filename="E:/LeetCode2022/2049.count_the_nodes_with_the_highest_score.cpp">
+			<Option target="2049.count_the_nodes_with_the_highest_score"/>
 		</Unit>
 		<Unit filename="E:/LeetCode2022/2055.plates_between_candles.cpp">
 			<Option target="2055.plates_between_candles"/>
@@ -571,6 +658,9 @@
 		</Unit>
 		<Unit filename="E:/LeetCode2022/589.antecedent_traversal_of_N_fork_trees.cpp">
 			<Option target="589.antecedent_traversal_of_N_fork_trees"/>
+		</Unit>
+		<Unit filename="E:/LeetCode2022/590.Post-order_traversal_of_N_fork_trees.cpp">
+			<Option target="590.Post-order_traversal_of_N_fork_trees"/>
 		</Unit>
 		<Unit filename="E:/LeetCode2022/88.merge_two_ordered_arrays.cpp">
 			<Option target="88.merge_two_ordered_arrays"/>

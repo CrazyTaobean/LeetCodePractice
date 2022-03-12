@@ -64,6 +64,8 @@ all: CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all
 all: CMakeFiles/2055.plates_between_candles.dir/all
 all: CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/all
 all: CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/all
+all: CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/all
+all: CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/all
 
 .PHONY : all
 
@@ -85,6 +87,8 @@ clean: CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/clean
 clean: CMakeFiles/2055.plates_between_candles.dir/clean
 clean: CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/clean
 clean: CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/clean
+clean: CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/clean
+clean: CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/clean
 
 .PHONY : clean
 
@@ -95,7 +99,7 @@ clean: CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/clean
 CMakeFiles/521.Longest_special_sequence_one.dir/all:
 	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/depend
 	$(MAKE) -f CMakeFiles\521.Longest_special_sequence_one.dir\build.make CMakeFiles/521.Longest_special_sequence_one.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 521.Longest_special_sequence_one"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 521.Longest_special_sequence_one"
 .PHONY : CMakeFiles/521.Longest_special_sequence_one.dir/all
 
 # Build rule for subdir invocation for target.
@@ -122,7 +126,7 @@ CMakeFiles/521.Longest_special_sequence_one.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +153,7 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/88.merge_two_ordered_arrays.dir/all:
 	$(MAKE) -f CMakeFiles\88.merge_two_ordered_arrays.dir\build.make CMakeFiles/88.merge_two_ordered_arrays.dir/depend
 	$(MAKE) -f CMakeFiles\88.merge_two_ordered_arrays.dir\build.make CMakeFiles/88.merge_two_ordered_arrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 88.merge_two_ordered_arrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target 88.merge_two_ordered_arrays"
 .PHONY : CMakeFiles/88.merge_two_ordered_arrays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -203,7 +207,7 @@ CMakeFiles/1.sum_of_two_numbers.dir/clean:
 CMakeFiles/504.seven_base_numbers.dir/all:
 	$(MAKE) -f CMakeFiles\504.seven_base_numbers.dir\build.make CMakeFiles/504.seven_base_numbers.dir/depend
 	$(MAKE) -f CMakeFiles\504.seven_base_numbers.dir\build.make CMakeFiles/504.seven_base_numbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 504.seven_base_numbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target 504.seven_base_numbers"
 .PHONY : CMakeFiles/504.seven_base_numbers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,7 +261,7 @@ CMakeFiles/2.two_together.dir/clean:
 CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/all:
 	$(MAKE) -f CMakeFiles\4.find_the_median_of_two_positive_ordinal_groups.dir\build.make CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/depend
 	$(MAKE) -f CMakeFiles\4.find_the_median_of_two_positive_ordinal_groups.dir\build.make CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 4.find_the_median_of_two_positive_ordinal_groups"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target 4.find_the_median_of_two_positive_ordinal_groups"
 .PHONY : CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +288,7 @@ CMakeFiles/4.find_the_median_of_two_positive_ordinal_groups.dir/clean:
 CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all:
 	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/depend
 	$(MAKE) -f CMakeFiles\3.the_oldest_string_without_repeating_characters.dir\build.make CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 3.the_oldest_string_without_repeating_characters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 3.the_oldest_string_without_repeating_characters"
 .PHONY : CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/all
 
 # Build rule for subdir invocation for target.
@@ -311,7 +315,7 @@ CMakeFiles/3.the_oldest_string_without_repeating_characters.dir/clean:
 CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all:
 	$(MAKE) -f CMakeFiles\2100.a_good_day_to_rob_a_bank.dir\build.make CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/depend
 	$(MAKE) -f CMakeFiles\2100.a_good_day_to_rob_a_bank.dir\build.make CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 2100.a_good_day_to_rob_a_bank"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2100.a_good_day_to_rob_a_bank"
 .PHONY : CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +342,7 @@ CMakeFiles/2100.a_good_day_to_rob_a_bank.dir/clean:
 CMakeFiles/2055.plates_between_candles.dir/all:
 	$(MAKE) -f CMakeFiles\2055.plates_between_candles.dir\build.make CMakeFiles/2055.plates_between_candles.dir/depend
 	$(MAKE) -f CMakeFiles\2055.plates_between_candles.dir\build.make CMakeFiles/2055.plates_between_candles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 2055.plates_between_candles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 2055.plates_between_candles"
 .PHONY : CMakeFiles/2055.plates_between_candles.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +369,7 @@ CMakeFiles/2055.plates_between_candles.dir/clean:
 CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/all:
 	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/depend
 	$(MAKE) -f CMakeFiles\589.antecedent_traversal_of_N_fork_trees.dir\build.make CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target 589.antecedent_traversal_of_N_fork_trees"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target 589.antecedent_traversal_of_N_fork_trees"
 .PHONY : CMakeFiles/589.antecedent_traversal_of_N_fork_trees.dir/all
 
 # Build rule for subdir invocation for target.
@@ -411,6 +415,60 @@ CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/rule: cmake_check_build_
 CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/clean:
 	$(MAKE) -f CMakeFiles\144.antecedent_traversal_of_binary_trees.dir\build.make CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/clean
 .PHONY : CMakeFiles/144.antecedent_traversal_of_binary_trees.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir
+
+# All Build rule for target.
+CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/all:
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/depend
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 2049.count_the_nodes_with_the_highest_score"
+.PHONY : CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/rule
+
+# Convenience name for target.
+2049.count_the_nodes_with_the_highest_score: CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/rule
+
+.PHONY : 2049.count_the_nodes_with_the_highest_score
+
+# clean rule for target.
+CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/clean:
+	$(MAKE) -f CMakeFiles\2049.count_the_nodes_with_the_highest_score.dir\build.make CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/clean
+.PHONY : CMakeFiles/2049.count_the_nodes_with_the_highest_score.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir
+
+# All Build rule for target.
+CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/all:
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/depend
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\LeetCode2022\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target 590.Post-order_traversal_of_N_fork_trees"
+.PHONY : CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\LeetCode2022\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/rule
+
+# Convenience name for target.
+590.Post-order_traversal_of_N_fork_trees: CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/rule
+
+.PHONY : 590.Post-order_traversal_of_N_fork_trees
+
+# clean rule for target.
+CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/clean:
+	$(MAKE) -f CMakeFiles\590.Post-order_traversal_of_N_fork_trees.dir\build.make CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/clean
+.PHONY : CMakeFiles/590.Post-order_traversal_of_N_fork_trees.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
